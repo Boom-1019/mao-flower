@@ -1,0 +1,201 @@
+$primary-color: #154F5E;
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Microsoft JhengHei' ,'STHeiti';
+}
+.container{
+    margin: auto;
+    max-width: 1440px;
+}
+
+img{
+    vertical-align: top;
+}
+ul, ol{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    margin: 0px;
+    overflow-x: hidden;
+}
+
+//圖片相關//
+.img-rounded{
+    /*圓角*/
+    border-radius: 5px;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+
+//區塊相關//
+.row{
+    display: flex;
+    flex-wrap: wrap; /*換行*/
+}
+
+@for $i from 1 through 12 {
+    .col-#{$i}{
+        --num: calc(12 / #{$i});
+        width: calc(100% / var(--num) - 0px);
+        margin: 0px 15px 0px 15px;
+    }
+}
+
+@media (min-width:768px){
+    @for $i from 1 through 12 {
+        .col-md-#{$i}{
+            --num: calc(12 / #{$i});
+            width: calc(100% / var(--num) - 0px);
+            margin: 0px 0px 0px 0px;
+        }
+    }
+} // 768px end
+
+.space-between{
+    justify-content: space-between;
+}
+
+//header//
+header{
+    background-color:#F6F6F6 ;
+}
+
+.logo{
+    width: 30%;
+}
+
+.align-items{
+    align-items: flex-end
+}
+
+nav{
+    width: 70%;
+}
+
+nav>ul{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 2%;
+}
+nav>ul>li{
+    margin-right: 5%;
+}
+nav>ul>li>a{
+    color: $primary-color;
+}
+
+nav>ul>li:hover{
+    animation: slideOutUp 1s ;
+}
+
+@keyframes slideOutUp{
+    0%,100%,to{
+      transform: translateY(0px);  
+    }
+    50%{
+        transform: translateY(-20px);
+    }
+    
+}
+
+// header結束
+
+#banner{
+    margin-bottom: 50px;
+}
+
+.box01-left>img{
+    width: 100%;
+}
+
+.box01-right{
+    width: 100%;
+    margin-top: 30%;
+    background-color: #BE6961;
+    padding-top: 15%;
+    padding-bottom: 10%;
+    position: relative;
+
+}
+.box01-right>p{
+    color: white;
+    background-color: #BE6961;
+    text-align: center;
+    margin-bottom: 5%;
+    font-size: 1.2em;
+}
+
+.box01-right::before{
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 100%;
+    background-image: url(../images/title01.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    top: -35%;
+    left: 10%;
+}
+
+.box01-left{
+    margin-bottom: 50px;
+}
+
+.img-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-section{
+    padding-top: 2%;
+    padding-bottom: 2% ;
+
+}
+.img-overlay{
+    overflow: hidden;
+}
+
+.img-wrap{
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-wrap img:hover{
+    transform: scale(1.2);
+    transition: all 0.3s;
+    opacity: calc(0.4);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.img-overlay{
+    position: relative;
+}
+.img-wrap span{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 2.3em;
+    display: none;
+    color: $primary-color;
+    letter-spacing: 3px;
+}
+
+.img-wrap:hover span{
+    display: block;
+
+}

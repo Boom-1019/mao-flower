@@ -5,10 +5,75 @@ head
     meta(name='viewport' content='width=device-width, initial-scale=1.0')
     title Mao Flower
     link(rel='stylesheet' href='public/css/style.css')
+  
     //- link(rel="stylesheet" href="public/js/WOW-master/css/libs/animate.css")
-    //- //- <!-- slick css -->
-    //- link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css")
-    //- //- <!-- slick theme css -->
-    //- link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css")
+    //- <!-- slick css -->
+    link(rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css")
+    //- <!-- slick theme css -->
+    link(rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css")
 
 body 
+    //- header開始
+    header.container
+        .row.align-items
+            .logo
+                a(href="index.html") 
+                    img.img-fluid(src="public/images/logo.png", alt="Mao Flower")
+            nav
+                ul 
+                    li 
+                        a(href="") 關於Mao 
+                    li 
+                        a(href="") 服務項目
+                    li 
+                        a(href="") 作品展示
+                    li
+                        a(href="") 聯絡我們 
+    //- header結束
+
+    #banner.container
+        img.img-fluid(src="public/images/banner01.png", alt="")
+        img.img-fluid(src="public/images/banner02.png", alt="")
+
+
+    section.container
+        .row.space-between
+            .col-12.col-md-6
+                .box01-left
+                    img.img-fluid(src="public/images/about.png", alt="")
+            .col-12.col-md-6
+                .box01-right
+                    p Mao Flower 源於一個嘗試乾燥花手作的社會新鮮人。
+                    p 雖然不太確定未來，<br>但先做花花再說吧！
+                    p 希望你們也能夠被花花療癒。
+    .service-section.container 
+        .row
+            .col-12.col-md-12
+                .img-flex
+                    img.img-fluid(src="public/images/title02.png", alt="")
+            .col-12.col-md-4 
+                .img-overlay
+                    a.img-flex(href="")
+                        .img-wrap
+                            img.img-fluid(src="public/images/service01.png", alt="")
+                            span 客製花禮
+                    p.text-center 生日禮物 | 畢業禮物
+            .col-12.col-md-4 
+                .img-overlay
+                    a.img-flex(href="")
+                        .img-wrap
+                            img.img-fluid(src="public/images/service02.png", alt="")
+                            span 設計花束
+                    p.text-center 永生花束 | 永生花盆
+            .col-12.col-md-4 
+                .img-overlay
+                    a.img-flex(href="")
+                        .img-wrap
+                            img.img-fluid(src="public/images/service03.png", alt="")
+                            span 花藝課程
+                    p.text-center 小班教學 | 生活花藝
+
+
+    script(src="https://code.jquery.com/jquery-3.6.0.min.js",integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",crossorigin="anonymous")
+    script(src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")
+    script(src="public/js/index.js") 

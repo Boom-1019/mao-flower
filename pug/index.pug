@@ -37,20 +37,23 @@ body
 
 
     section.container
-        .row.space-between
-            .col-12.col-md-6
+        .row
+            .col-12.col-md0-6.margin0
                 .box01-left
                     img.img-fluid(src="public/images/about.png", alt="")
-            .col-12.col-md-6
+            .col-12.col-md0-6.margin0
                 .box01-right
                     p Mao Flower 源於一個嘗試乾燥花手作的社會新鮮人。
                     p 雖然不太確定未來，<br>但先做花花再說吧！
                     p 希望你們也能夠被花花療癒。
+
+
     .service-section.container 
-        .row
+        .row.space-between
             .col-12.col-md-12
-                .img-flex
+                .img-flex.title
                     img.img-fluid(src="public/images/title02.png", alt="")
+                .title
             .col-12.col-md-4 
                 .img-overlay
                     a.img-flex(href="")
@@ -73,6 +76,108 @@ body
                             span 花藝課程
                     p.text-center 小班教學 | 生活花藝
 
+
+    #gift-section.container 
+        .col-12.col-md-12
+            .img-flex
+                img.img-fluid(src="public/images/title04.png", alt="")
+        .gift-img-wrap
+            .arrow-left 
+                img(src="public/images/arrow-left.png", alt="")
+            .list
+                a(href='#gift1')
+                    img(src='public/images/gift01.png')
+                a(href='#gift02')
+                    img(src='public/images/gift02.png')
+                a(href='#gift06')
+                    img(src='public/images/gift06.png')
+                a(href='#gift04')
+                    img(src='public/images/gift04.png')
+                a(href='#gift03')
+                    img(src='public/images/gift03.png')
+                a(href='#gift05')
+                    img(src='public/images/gift05.png')
+            a#gift1.lightbox(href='#gift-section')
+                img(src='public/images/gift01.png')
+            a#gift02.lightbox(href='#gift-section')
+                img(src='public/images/gift02.png')
+            a#gift06.lightbox(href='#gift-section')
+                img(src='public/images/gift06.png')
+            a#gift04.lightbox(href='#gift-section')
+                img(src='public/images/gift04.png')
+            a#gift03.lightbox(href='#gift-section')
+                img(src='public/images/gift03.png')
+            a#gift05.lightbox(href='#gift-section')
+                img(src='public/images/gift05.png')
+            .arrow-right
+                img(src="public/images/arrow-right.png", alt="")
+
+
+    #flower-section.container 
+        .col-12.col-md-12
+            .img-flex
+                img.img-fluid(src="public/images/title03.png", alt="")
+        .gift-img-wrap
+            .arrow-left 
+                img(src="public/images/arrow-left.png", alt="")
+            .list
+                a(href='#flower01')
+                    img(src='public/images/flower01.png')
+                a(href='#flower02')
+                    img(src='public/images/flower02.png')
+                a(href='#flower06')
+                    img(src='public/images/flower06.png')
+                a(href='#flower04l')
+                    img(src='public/images/flower04.png')
+                a(href='#flower03')
+                    img(src='public/images/flower03.png')
+                a(href='#flower05')
+                    img(src='public/images/flower05.png')
+            a#flower01.lightbox(href='#flower-section')
+                img(src='public/images/flower01.png')
+            a#flower02.lightbox(href='#flower-section')
+                img(src='public/images/flower02.png')
+            a#flower06.lightbox(href='#flower-section')
+                img(src='public/images/flower06.png')
+            a#flower04.lightbox(href='#flower-section')
+                img(src='public/images/flower04.png')
+            a#flower03.lightbox(href='#flower-section')
+                img(src='public/images/flower03.png')
+            a#flower05.lightbox(href='#flower-section')
+                img(src='public/images/flower05.png')
+            .arrow-right
+                img(src="public/images/arrow-right.png", alt="")
+
+    #course-section.container 
+        .col-12.col-md-12
+            .img-flex
+                img.img-fluid(src="public/images/title05.png", alt="")
+        .list
+            a(href='#course01')
+                img(src='public/images/course01.png')
+            a(href='#course02')
+                img(src='public/images/course02.png')
+            a(href='#course03')
+                img(src='public/images/course03.png')
+            a(href='#course04')
+                img(src='public/images/course04.png')
+
+        a#course01.lightbox(href='#course-section')
+            img(src='public/images/course01.png')
+            p 先打假字，不知道要介紹什麼
+        a#course02.lightbox(href='#course-section')
+            img(src='public/images/course02.png')
+            p 先打假字，不知道要介紹什麼
+        a#course03.lightbox(href='#course-section')
+            img(src='public/images/course03.png')
+            p 先打假字，不知道要介紹什麼
+        a#course04.lightbox(href='#course-section')
+            img(src='public/images/course04.png')
+            p 先打假字，不知道要介紹什麼
+
+
+
+        
 
     script(src="https://code.jquery.com/jquery-3.6.0.min.js",integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",crossorigin="anonymous")
     script(src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")

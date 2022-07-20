@@ -45,149 +45,226 @@ body {
 
 .col-1 {
   --num: calc(12 / 1);
-  width: calc(100% / var(--num) - 0px);
+  width: calc(100% / var(--num) - 30px);
   margin: 0px 15px 0px 15px;
 }
 
 .col-2 {
   --num: calc(12 / 2);
-  width: calc(100% / var(--num) - 0px);
+  width: calc(100% / var(--num) - 30px);
   margin: 0px 15px 0px 15px;
 }
 
 .col-3 {
   --num: calc(12 / 3);
-  width: calc(100% / var(--num) - 0px);
+  width: calc(100% / var(--num) - 30px);
   margin: 0px 15px 0px 15px;
 }
 
 .col-4 {
   --num: calc(12 / 4);
-  width: calc(100% / var(--num) - 0px);
+  width: calc(100% / var(--num) - 30px);
   margin: 0px 15px 0px 15px;
 }
 
 .col-5 {
   --num: calc(12 / 5);
-  width: calc(100% / var(--num) - 0px);
+  width: calc(100% / var(--num) - 30px);
   margin: 0px 15px 0px 15px;
 }
 
 .col-6 {
   --num: calc(12 / 6);
-  width: calc(100% / var(--num) - 0px);
+  width: calc(100% / var(--num) - 30px);
   margin: 0px 15px 0px 15px;
 }
 
 .col-7 {
   --num: calc(12 / 7);
-  width: calc(100% / var(--num) - 0px);
+  width: calc(100% / var(--num) - 30px);
   margin: 0px 15px 0px 15px;
 }
 
 .col-8 {
   --num: calc(12 / 8);
-  width: calc(100% / var(--num) - 0px);
+  width: calc(100% / var(--num) - 30px);
   margin: 0px 15px 0px 15px;
 }
 
 .col-9 {
   --num: calc(12 / 9);
-  width: calc(100% / var(--num) - 0px);
+  width: calc(100% / var(--num) - 30px);
   margin: 0px 15px 0px 15px;
 }
 
 .col-10 {
   --num: calc(12 / 10);
-  width: calc(100% / var(--num) - 0px);
+  width: calc(100% / var(--num) - 30px);
   margin: 0px 15px 0px 15px;
 }
 
 .col-11 {
   --num: calc(12 / 11);
-  width: calc(100% / var(--num) - 0px);
+  width: calc(100% / var(--num) - 30px);
   margin: 0px 15px 0px 15px;
 }
 
 .col-12 {
   --num: calc(12 / 12);
-  width: calc(100% / var(--num) - 0px);
+  width: calc(100% / var(--num) - 30px);
   margin: 0px 15px 0px 15px;
 }
 
 @media (min-width: 768px) {
   .col-md-1 {
     --num: calc(12 / 1);
-    width: calc(100% / var(--num) - 0px);
-    margin: 0px 0px 0px 0px;
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 0px 15px;
   }
 
   .col-md-2 {
     --num: calc(12 / 2);
-    width: calc(100% / var(--num) - 0px);
-    margin: 0px 0px 0px 0px;
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 0px 15px;
   }
 
   .col-md-3 {
     --num: calc(12 / 3);
-    width: calc(100% / var(--num) - 0px);
-    margin: 0px 0px 0px 0px;
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 0px 15px;
   }
 
   .col-md-4 {
     --num: calc(12 / 4);
-    width: calc(100% / var(--num) - 0px);
-    margin: 0px 0px 0px 0px;
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 0px 15px;
   }
 
   .col-md-5 {
     --num: calc(12 / 5);
-    width: calc(100% / var(--num) - 0px);
-    margin: 0px 0px 0px 0px;
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 0px 15px;
   }
 
   .col-md-6 {
     --num: calc(12 / 6);
-    width: calc(100% / var(--num) - 0px);
-    margin: 0px 0px 0px 0px;
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 0px 15px;
   }
 
   .col-md-7 {
     --num: calc(12 / 7);
-    width: calc(100% / var(--num) - 0px);
-    margin: 0px 0px 0px 0px;
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 0px 15px;
   }
 
   .col-md-8 {
     --num: calc(12 / 8);
-    width: calc(100% / var(--num) - 0px);
-    margin: 0px 0px 0px 0px;
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 0px 15px;
   }
 
   .col-md-9 {
     --num: calc(12 / 9);
-    width: calc(100% / var(--num) - 0px);
-    margin: 0px 0px 0px 0px;
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 0px 15px;
   }
 
   .col-md-10 {
     --num: calc(12 / 10);
-    width: calc(100% / var(--num) - 0px);
-    margin: 0px 0px 0px 0px;
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 0px 15px;
   }
 
   .col-md-11 {
     --num: calc(12 / 11);
-    width: calc(100% / var(--num) - 0px);
-    margin: 0px 0px 0px 0px;
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 0px 15px;
   }
 
   .col-md-12 {
     --num: calc(12 / 12);
-    width: calc(100% / var(--num) - 0px);
-    margin: 0px 0px 0px 0px;
+    width: calc(100% / var(--num) - 30px);
+    margin: 0px 15px 0px 15px;
   }
 }
+@media (min-width: 768px) {
+  .col-md0-1 {
+    --num: calc(12 / 1);
+    width: calc(100% / var(--num) - 0px);
+    margin: 0px 15px 0px 15px;
+  }
+
+  .col-md0-2 {
+    --num: calc(12 / 2);
+    width: calc(100% / var(--num) - 0px);
+    margin: 0px 15px 0px 15px;
+  }
+
+  .col-md0-3 {
+    --num: calc(12 / 3);
+    width: calc(100% / var(--num) - 0px);
+    margin: 0px 15px 0px 15px;
+  }
+
+  .col-md0-4 {
+    --num: calc(12 / 4);
+    width: calc(100% / var(--num) - 0px);
+    margin: 0px 15px 0px 15px;
+  }
+
+  .col-md0-5 {
+    --num: calc(12 / 5);
+    width: calc(100% / var(--num) - 0px);
+    margin: 0px 15px 0px 15px;
+  }
+
+  .col-md0-6 {
+    --num: calc(12 / 6);
+    width: calc(100% / var(--num) - 0px);
+    margin: 0px 15px 0px 15px;
+  }
+
+  .col-md0-7 {
+    --num: calc(12 / 7);
+    width: calc(100% / var(--num) - 0px);
+    margin: 0px 15px 0px 15px;
+  }
+
+  .col-md0-8 {
+    --num: calc(12 / 8);
+    width: calc(100% / var(--num) - 0px);
+    margin: 0px 15px 0px 15px;
+  }
+
+  .col-md0-9 {
+    --num: calc(12 / 9);
+    width: calc(100% / var(--num) - 0px);
+    margin: 0px 15px 0px 15px;
+  }
+
+  .col-md0-10 {
+    --num: calc(12 / 10);
+    width: calc(100% / var(--num) - 0px);
+    margin: 0px 15px 0px 15px;
+  }
+
+  .col-md0-11 {
+    --num: calc(12 / 11);
+    width: calc(100% / var(--num) - 0px);
+    margin: 0px 15px 0px 15px;
+  }
+
+  .col-md0-12 {
+    --num: calc(12 / 12);
+    width: calc(100% / var(--num) - 0px);
+    margin: 0px 15px 0px 15px;
+  }
+}
+.margin0 {
+  margin: 0;
+}
+
 .space-between {
   justify-content: space-between;
 }
@@ -234,6 +311,12 @@ nav > ul > li:hover {
     transform: translateY(-20px);
   }
 }
+.img-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 #banner {
   margin-bottom: 50px;
 }
@@ -275,15 +358,11 @@ nav > ul > li:hover {
   margin-bottom: 50px;
 }
 
-.img-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
 .service-section {
-  padding-top: 2%;
-  padding-bottom: 2%;
+  margin-top: 1%;
+  margin-bottom: 60px;
+  background-color: #BE6961;
+  position: relative;
 }
 
 .img-overlay {
@@ -294,6 +373,7 @@ nav > ul > li:hover {
   display: block;
   position: relative;
   overflow: hidden;
+  background-color: white;
 }
 
 .img-wrap img:hover {
@@ -323,4 +403,90 @@ nav > ul > li:hover {
 
 .img-wrap:hover span {
   display: block;
+}
+
+.service-section p {
+  color: white;
+  padding-top: 15px;
+  margin-bottom: 40px;
+}
+
+.service-section .title::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 17%;
+  background-color: white;
+  top: 0%;
+}
+
+.title img {
+  z-index: 1;
+  padding-bottom: 1%;
+}
+
+.gift-img-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.list {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+}
+
+.list img {
+  margin-left: 20px;
+}
+
+#gift-section, #flower-section {
+  position: relative;
+  margin-bottom: 60px;
+}
+
+.lightbox img {
+  padding: 20px;
+  background-color: #fff;
+}
+
+.lightbox {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 120%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #00000066;
+  z-index: -1;
+  opacity: 0;
+}
+
+.lightbox:target {
+  z-index: 1;
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.gift-img-wrap {
+  margin-top: 20px;
+}
+
+#course-section {
+  padding-top: 30px;
+  background-color: #154f5e9e;
+  padding-bottom: 50px;
+  position: relative;
+}
+
+#course-section .img-flex {
+  margin-bottom: 10px;
+}
+
+#course-section img:hover {
+  transition: all 0.3s;
+  opacity: calc(0.8);
 }

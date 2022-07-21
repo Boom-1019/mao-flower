@@ -22,13 +22,13 @@ body
             nav
                 ul 
                     li 
-                        a(href="") 關於Mao 
+                        a#nav-intro(href="javascript:;") 關於Mao 
                     li 
-                        a(href="") 服務項目
+                        a#nav-service(href="javascript:;") 服務項目
                     li 
-                        a(href="") 作品展示
+                        a#nav-gift(href="javascript:;") 作品展示
                     li
-                        a(href="") 聯絡我們 
+                        a#nav-concact(href="javascript:;") 聯絡我們 
     //- header結束
 
     #banner.container
@@ -36,7 +36,7 @@ body
         img.img-fluid(src="public/images/banner02.png", alt="")
 
 
-    section.container
+    section#about-mao.container.section-1
         .row
             .col-12.col-md0-6.margin0
                 .box01-left
@@ -48,7 +48,7 @@ body
                     p 希望你們也能夠被花花療癒。
 
 
-    .service-section.container 
+    #service-section.container 
         .row.space-between
             .col-12.col-md-12
                 .img-flex.title
@@ -56,21 +56,21 @@ body
                 .title
             .col-12.col-md-4 
                 .img-overlay
-                    a.img-flex(href="")
+                    a.img-flex(href="#gift-section")
                         .img-wrap
                             img.img-fluid(src="public/images/service01.png", alt="")
                             span 客製花禮
                     p.text-center 生日禮物 | 畢業禮物
             .col-12.col-md-4 
                 .img-overlay
-                    a.img-flex(href="")
+                    a.img-flex(href="#flower-section")
                         .img-wrap
                             img.img-fluid(src="public/images/service02.png", alt="")
                             span 設計花束
                     p.text-center 永生花束 | 永生花盆
             .col-12.col-md-4 
                 .img-overlay
-                    a.img-flex(href="")
+                    a.img-flex(href="#course-section")
                         .img-wrap
                             img.img-fluid(src="public/images/service03.png", alt="")
                             span 花藝課程
@@ -127,7 +127,7 @@ body
                     img(src='public/images/flower02.png')
                 a(href='#flower06')
                     img(src='public/images/flower06.png')
-                a(href='#flower04l')
+                a(href='#flower04')
                     img(src='public/images/flower04.png')
                 a(href='#flower03')
                     img(src='public/images/flower03.png')
@@ -152,33 +152,127 @@ body
         .col-12.col-md-12
             .img-flex
                 img.img-fluid(src="public/images/title05.png", alt="")
-        .list
-            a(href='#course01')
-                img(src='public/images/course01.png')
-            a(href='#course02')
-                img(src='public/images/course02.png')
-            a(href='#course03')
-                img(src='public/images/course03.png')
-            a(href='#course04')
-                img(src='public/images/course04.png')
-
-        a#course01.lightbox(href='#course-section')
-            img(src='public/images/course01.png')
-            p 先打假字，不知道要介紹什麼
-        a#course02.lightbox(href='#course-section')
-            img(src='public/images/course02.png')
-            p 先打假字，不知道要介紹什麼
-        a#course03.lightbox(href='#course-section')
-            img(src='public/images/course03.png')
-            p 先打假字，不知道要介紹什麼
-        a#course04.lightbox(href='#course-section')
-            img(src='public/images/course04.png')
-            p 先打假字，不知道要介紹什麼
-
-
-
+        .row.space-between
+            .col-6.col-md-3
+                a.img-flex(href='#course01')
+                    img.img-fluid(src='public/images/course01.png')
+            .col-6.col-md-3
+                a.img-flex(href='#course02')
+                    img.img-fluid(src='public/images/course02.png')
+            .col-6.col-md-3
+                a.img-flex(href='#course03')
+                    img.img-fluid(src='public/images/course03.png')
+            .col-6.col-md-3
+                a.img-flex(href='#course04')
+                    img.img-fluid(src='public/images/course04.png')
         
+        a#course01.lightbox-course(href='#course-section')
+            .course-warp
+                img(src='public/images/course01.png')
+                .course-conent
+                    h2 乾燥花DIY
+                    p 自己動手做乾燥花不求人，四種簡單的乾燥花作法教學，以及製作時的注意事項，讓花朵能夠長久陪伴你。
+        a#course02.lightbox-course(href='#course-section')
+            .course-warp
+                img(src='public/images/course02.png')
+                .course-conent
+                    h2 零基礎花束入門
+                    p 基礎花束包裝．為自己手綁的花束穿上優雅的衣裳吧！基礎花束包裝課程非常適合初學者、沒有花束包裝經驗的同學喔。
+        a#course03.lightbox-course(href='#course-section')
+            .course-warp
+                img(src='public/images/course03.png')
+                .course-conent
+                    h2 永生花香氛蠟燭
+                    p 同時學會香氛蠟燭的製作技巧及永生花藝設計的二合一課程，自己做一棵獨一無二的蠟燭樹吧！
+        a#course04.lightbox-course(href='#course-section')
+            .course-warp
+                img(src='public/images/course04.png')
+                .course-conent
+                    h2 永生花浮游瓶
+                    p 想要讓美美的花朵能在瓶中呈現美麗鮮豔的顏色嗎？透過將永生花與乾燥花相結合，最後加入礦物油保存液，讓美麗的花朵呈現鮮豔透亮的顏色。
 
+    #concact-section
+        .col-12.col-md-6.margin0
+            form(action="dashboard.html") 
+                .form
+                    h2 立即預約
+                    .input-group
+                        .label
+                            label(type='text') 姓名
+                        .input
+                            input(type='text')
+                    .input-group
+                        .label
+                            label(type='email') 電子郵件
+                        .input
+                            input(type='email')
+                    .input-group
+                        .label
+                            label(type='text') 電話
+                        .input
+                            input(type='text')
+                    .input-group
+                        .label
+                            label(type='date') 時間
+                        .input
+                            input(type='date')
+                    .select-group
+                        .input-group
+                            .label
+                                label(type='date') 人數
+                            select(name="num") 
+                                option(value='1') 1
+                                option(value='2') 2
+                                option(value='3') 3
+                                option(value='4') 4
+                                option(value='5') 5
+                                option(value='6') 6
+                        .input-group
+                            .label
+                                label(type='date') 課程
+                            select(name="num") 
+                                option(value='DIY') 乾燥花DIY
+                                option(value='花束') 零基礎花束入門
+                                option(value='蠟燭') 永生花香氛蠟燭
+                                option(value='浮游瓶') 永生花浮游瓶
+                        .submit
+                            input.button(type='submit' value='送出')
+
+
+        // 頁尾開始
+    footer
+        .container
+            .row
+                .col-12.col-md-12
+                    img(src="public/images/logo.png", alt="Mao Flower")
+                dl.col-12.col-md-4
+                    dt 
+                        dd 
+                            p Copyright © 2022 Mao Flower
+                        dd 
+                            p 僅做為練習使用，不做任何商業行為。
+                dl.col-12.col-md-4
+                    dt 
+                        dd 
+                            p 地址：新北市淡水區毛毛路
+                        dd 
+                            p 信箱：MaoFloewr@gmail.com
+                dl.col-12.col-md-4
+                    dt 
+                        dd 
+                            a(href="#") 
+                                img(src="public/images/fb.png", alt="")
+                            a(href="#") 
+                                img(src="public/images/ig.png", alt="")
+                            a(href="#") 
+                                img(src="public/images/line.png", alt="")
+                        dd 
+                            a(href="#") 條款與細則
+                        dd 
+                            a(href="#") 隱私權政策
+
+    a.page-top(href="javascript:;")
+        img(src="public/images/up.png", alt="")
     script(src="https://code.jquery.com/jquery-3.6.0.min.js",integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=",crossorigin="anonymous")
     script(src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js")
     script(src="public/js/index.js") 

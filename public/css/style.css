@@ -425,11 +425,6 @@ nav > ul > li:hover {
   padding-bottom: 1%;
 }
 
-.gift-img-wrap {
-  display: flex;
-  align-items: center;
-}
-
 .list {
   width: 100%;
   display: flex;
@@ -438,7 +433,7 @@ nav > ul > li:hover {
 }
 
 .list img {
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 #gift-section, #flower-section {
@@ -538,6 +533,7 @@ nav > ul > li:hover {
   display: flex;
   background-image: url(../images/bg01.png);
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 form {

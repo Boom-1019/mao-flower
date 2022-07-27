@@ -242,10 +242,10 @@ nav>ul>li:hover{
 // gift section Start
 
 // 燈箱
-.gift-img-wrap{
-    display: flex;
-    align-items: center;
-}
+// .gift-img-wrap{
+//     display: flex;
+//     align-items: center;
+// }
 .list{
     width: 100%;
     display: flex;
@@ -254,7 +254,7 @@ nav>ul>li:hover{
 }
 
 .list img{
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 #gift-section,#flower-section{
@@ -291,6 +291,13 @@ nav>ul>li:hover{
     margin-top: 20px;
 }
 
+// .slick-next,.slick-prev{
+//     z-index: 10;
+// }
+// .slick-next::before,
+// .slick-prev::before{
+//     color: #154F5E;
+// }
 
 // course section Start
 #course-section{
@@ -353,6 +360,7 @@ nav>ul>li:hover{
     display: flex;
     background-image: url(../images/bg01.png);
     background-repeat:no-repeat;
+    background-size: cover;
     
   }
 

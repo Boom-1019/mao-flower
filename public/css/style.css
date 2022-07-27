@@ -303,6 +303,10 @@ nav > ul > li:hover {
   animation: slideOutUp 1s;
 }
 
+nav > ul > li:hover a {
+  color: #BE6961;
+}
+
 @keyframes slideOutUp {
   0%, 100%, to {
     transform: translateY(0px);
@@ -645,4 +649,8 @@ dd {
 .page-top.active {
   right: 10px;
   transform: rotate(360deg);
+}
+
+.page-top:hover {
+  background-color: #a25851bb;
 }

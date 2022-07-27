@@ -107,10 +107,15 @@ nav>ul>li{
 }
 nav>ul>li>a{
     color: $primary-color;
+    // letter-spacing: 1px;
 }
 
 nav>ul>li:hover{
     animation: slideOutUp 1s ;
+}
+
+nav>ul>li:hover a{
+    color: #BE6961;
 }
 
 @keyframes slideOutUp{
@@ -472,4 +477,8 @@ dd{
     // display: block;
     right:10px;
     transform: rotate(360deg);
+}
+
+.page-top:hover{
+    background-color: #a25851bb;
 }
